@@ -9,11 +9,11 @@ importers:
   .:
     devDependencies:
       allure-jasmine:
-        specifier: ^3.0.5
-        version: 3.0.5(jasmine@5.4.0)
+        specifier: ^3.0.6
+        version: 3.0.6(jasmine@5.4.0)
       allure-js-commons:
-        specifier: ^3.0.5
-        version: 3.0.5
+        specifier: ^3.0.6
+        version: 3.0.6
       jasmine:
         specifier: ^5.4.0
         version: 5.4.0
@@ -28,18 +28,18 @@ packages:
     resolution: {integrity: sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==}
     engines: {node: '>=14'}
 
-  allure-jasmine@3.0.5:
-    resolution: {integrity: sha512-DA5wCw8TnolNFu2ByH7SWtMirBxxQvI4Xf8nXe2FQfHuoY3uvh1TJcUChGqnU4TJH4EJOEGtsAFSFmFaeLf6TQ==}
+  allure-jasmine@3.0.6:
+    resolution: {integrity: sha512-tLiHJ9TrU7a8HCQJD+sKhKAajuWvZw9xTStGlLHsJ5kc6nx2WrigEhJPl5C62w9v6sX3KY72OsnLsaujKsHNxw==}
     peerDependencies:
       jasmine: '>=2.7.0'
     peerDependenciesMeta:
       jasmine:
         optional: true
 
-  allure-js-commons@3.0.5:
-    resolution: {integrity: sha512-kIrai/gDbJdwvN2pW5dYN2W7HrbrRSu8VoodBWWEO36e/AVPsEUoQ5owzRtEknYplRBD+lnhyn3a5xgM9oAsAg==}
+  allure-js-commons@3.0.6:
+    resolution: {integrity: sha512-q3r3Cj3sG6hR7jH8SGkfNleLJK+yFAGwzyFDGzIfu+WLZ4yeFcBZHkWuq7QreRpxvsZWNby/38jhrj5yYFwQ2g==}
     peerDependencies:
-      allure-playwright: 3.0.5
+      allure-playwright: 3.0.6
     peerDependenciesMeta:
       allure-playwright:
         optional: true
@@ -200,15 +200,15 @@ snapshots:
   '@pkgjs/parseargs@0.11.0':
     optional: true
 
-  allure-jasmine@3.0.5(jasmine@5.4.0):
+  allure-jasmine@3.0.6(jasmine@5.4.0):
     dependencies:
-      allure-js-commons: 3.0.5
+      allure-js-commons: 3.0.6
     optionalDependencies:
       jasmine: 5.4.0
     transitivePeerDependencies:
       - allure-playwright
 
-  allure-js-commons@3.0.5:
+  allure-js-commons@3.0.6:
     dependencies:
       md5: 2.3.0
 
